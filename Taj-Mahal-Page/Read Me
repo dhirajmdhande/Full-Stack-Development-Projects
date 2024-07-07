@@ -5,3 +5,27 @@ Bootstrap Carousal- https://getbootstrap.com/docs/4.5/components/carousel/
 
 Taj Mahal Slideshow : https://dhirajdhande1.ccbp.tech/
 Taj Mahal Video Page : https://dhirajdhande2.ccbp.tech/
+
+
+
+### Project 1: Taj Mahal Slide
+In this project, I created a detailed view section page featuring the Taj Mahal with an interactive image carousel. 
+
+### Project 2: Taj Mahal Video
+For the second project, I modified the original design to include a video instead of the carousel, providing a dynamic and engaging experience.
+
+### Project Development Explanation
+
+#### Taj Mahal Slide
+For the Taj Mahal Slide project:
+- I first defined a `div` for the background container, adding a background image and a heading.
+- Next, I added another `div` for the card. Within this card, I incorporated the Bootstrap Carousel code and specified the `src` attributes for the HTML `img` elements in the carousel.
+- I then defined a text-container `div` to include the heading and description, applying appropriate padding.
+- Finally, I applied margins to the card to ensure proper spacing and alignment on the page.
+
+#### Taj Mahal Video
+For the Taj Mahal Video project:
+- I removed the Bootstrap Carousel code.
+- I added the Bootstrap Embed code and included a YouTube video link to embed the video.
+
+By following these steps, I successfully created the Taj Mahal Slide project and then modified it to include an embedded video, resulting in the Taj Mahal Video project.
