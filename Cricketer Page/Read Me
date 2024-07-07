@@ -1,1 +1,12 @@
 Project : https://dhirajdhande.ccbp.tech/
+
+1. **Structured Layout**: 
+ - Divided the layout into a top section and a bottom section for better content organization.
+ - Applied background images, set appropriate height, and adjusted the background size to enhance visual appeal.
+
+2. **Alignment Techniques**:
+ - Utilized `d-flex flex-row` to align the image to the right in the top section, ensuring a clean and professional look.
+ - Implemented a single div with `d-flex flex-row` to align three cards in a single line at the bottom, maintaining consistency and readability.
+
+3. **Styling the Button**:
+ - Used `btn-primary` to give the button a distinctive blue appearance, making it stand out and ensuring it's easily noticeable.
