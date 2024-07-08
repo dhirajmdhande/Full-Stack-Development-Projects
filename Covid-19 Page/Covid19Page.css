@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0967d219;
+}
+
+.know-more-section {
+    margin: 15px;
+}
+
+.main-heading {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #323f4b;
+    font-weight: 500;
+}
+
+.button {
+    height: 30px;
+    width: 95px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-family:"Roboto";
+    font-weight:500;
+    background-color:#0967d2;
+    color:white;
+    border-width:0px;
+}
+
+.know-more-section-image {
+    height: 80px;
+    width: 120px;
+}
+
+.covid-19-test-section {
+    border-radius:12px;
+    padding:10px;
+    margin:10px;
+    background-color:#0967d219;
+}
+
+.covid-19-test-section-image {
+    height: 48px;
+    width: 48px;
+    margin: 10px;
+}
+
+.heading-2 {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight:500;
+    color: #323f4b;
+}
+
+.covid-19-test-section-text-box {
+    padding:5px;
+}
+
+.description {
+    color: #707070;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight:500;
+    color: #323f4b;
+    padding:10px;
+}
+
+.individual-card {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    margin: 8px;
+    padding: 5px;
+    text-align: center;
+}
+
+.card-1 {
+    background-color: #3ebd93
+}
+
+.card-image {
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+
+.card-description {
+    color: white;
+    font-family:"Roboto";
+    font-size:12px;
+}
+
+.card-2 {
+    background-color: #e668a7;
+}
+
+.card-3 {
+    background-color: #a368fc;
+}
+
+.videos-section {
+    border-radius:12px;
+    padding:10px;
+    margin:10px;
+    background-color:#e12d3919;
+}
+
+.videos-section-image {
+    height: 48px;
+    width: 48px;
+    margin:10px;
+}
+
+.videos-section-text-box {
+    padding: 5px;
+}
+.heading-5{
+    padding:0px;
+}
