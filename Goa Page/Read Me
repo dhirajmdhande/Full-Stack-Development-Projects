@@ -1,0 +1,9 @@
+Bootstrap Carousal : https://getbootstrap.com/docs/4.5/components/carousel/
+Boostrap Embed : https://getbootstrap.com/docs/4.5/utilities/embed/
+
+💡 **Technical Highlights:**
+1. Defined a background container to create a structured layout.
+2. Added carousel images to showcase the beauty of Goa.
+3. Applied padding to the text-box to ensure appropriate spacing and readability.
+4. Used 'd-flex flex-row' to align images and videos correctly, maintaining a clean and organized appearance.
+5. Incorporated images using `<img src="" class="">` and embedded videos using Bootstrap Embed for a seamless multimedia experience.
