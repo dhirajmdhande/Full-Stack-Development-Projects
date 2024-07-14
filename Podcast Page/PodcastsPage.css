@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.podcast-image {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+    height: 48vh;
+    background-size: cover;
+}
+
+.heading {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 27px;
+    padding: 20px;
+}
+
+.bottom-section {
+    padding: 24px;
+}
+
+.card {
+    height: 130px;
+    width: 150px;
+    border-width: 0px;
+    margin-right: 20px;
+}
+
+.card-heading {
+    font-size: 17px;
+    margin-top: 5px;
+    font-family: "Roboto";
+    color: #151765;
+    font-weight: 600;
+}
+
+.card-description {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 400;
+    color: #5a7184;
+}
+
+.card-general {
+    text-align: center;
+}
+
+.background {
+    background-color: #151765;
+    background-size: cover;
+    height: 30vh;
+}
+
+.podcast {
+    font-weight: 200;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.bg-container {
+    padding: 24px;
+    margin: 2px;
+}
+
+.main-heading {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.podcast-description {
+    font-weight: 400;
+    font-size: 17px;
+    color: #5a7184;
+}
+
+.podcast-name {
+    color: #151765;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.podcast-header {
+    background-color: #151765;
+    padding: 20px;
+    height: 25vh;
+}
+
+.podcast-duration {
+    color: #151765;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.podcast-2 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.podcast-episode-container {
+    padding: 10px;
+}
+
+.card-1 {
+    height: 130px;
+    width: 150px;
+    border-width: 0px;
+    margin-right: 20px;
+}
+
+.button {
+    background-color: #151765;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 20px;
+    width: 80px;
+}
+
+.button-container {
+    margin-right: 20px;
+}
