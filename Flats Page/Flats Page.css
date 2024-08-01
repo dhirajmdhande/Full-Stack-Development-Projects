@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.sectionHome-top-section {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+    height: 120vh;
+    background-size: cover;
+}
+
+.sectionHome-bottom-section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.sectionHome-heading {
+    font-size: 25px;
+    font-family: "Bree Serif";
+    color: #f19116;
+    margin-bottom: 15px;
+}
+
+.sectionHome-description {
+    color: #7b8794;
+    font-family: "Bree Serif";
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.sectionHome-button {
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #f19116;
+    height: 30px;
+    width: 80px;
+}
+
+.cards {
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.images {
+    height: 177px;
+    width: 100px;
+}
+
+.bg-container {
+    background-color: #222222;
+    background-size: cover;
+    padding: 24px;
+}
+
+.text-box {
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.sectionSunriseAvenue-heading {
+    font-size: 20px;
+    font-family: "Bree Serif";
+    color: #0f0e46;
+    font-weight: bold;
+}
+
+.sectionSunriseAvenue-description {
+    font-family: "Bree Serif";
+    font-weight: 500;
+    font-size: 12px;
+    color: #6c6b70;
+}
+
+.section3BHK-top-section {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.section3BHK-bottom-section {
+    background-color: #222222;
+    background-size: cover;
+    padding: 24px;
+}
+
+.section3BHK-headings {
+    font-size: 20px;
+    font-family: "Bree Serif";
+    color: #f19116;
+}
+
+.location {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.location-image {
+    height: 25px;
+    width: 25px;
+}
+
+.section3BHK-description {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button-1 {
+    margin-right: 20px;
+}
