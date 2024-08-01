@@ -39,6 +39,7 @@
 .cards {
     border-radius: 8px;
     margin-bottom: 15px;
+    background-size:cover;
 }
 
 .images {
@@ -55,6 +56,8 @@
 .text-box {
     background-color: #ffffff;
     padding: 15px;
+    border-radius:8px;
+    background-size:cover;
 }
 
 .sectionSunriseAvenue-heading {
