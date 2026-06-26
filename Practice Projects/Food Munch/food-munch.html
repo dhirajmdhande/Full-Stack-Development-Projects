@@ -1,0 +1,347 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="food_website.css"/>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <div id="sectionHome">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+            <img src="Images/food_munch_logo.png"
+            class="food-munch-logo" alt="food_munch_logo"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" href="#"  onclick="display('sectionWhyChooseUs')"> 
+                Why Choose Us? 
+            <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link" href="#" onclick="display('sectionExploreMenu')"> Explore Menu </a>
+            <a class="nav-link" href="#" onclick="display('sectionDeliveryAndPayment')"> Delivery & Payment </a>
+            <a class="nav-link" href="#"> Follow Us </a>
+            </div>
+        </div>
+                </nav>
+                <div class="bg-container d-flex flex-column justify-content-center">
+                    <div class="text-center">
+                        <h1 class="heading mb-2">
+                            Get Delicious Food Anytime
+                        </h1>
+                        <h1 class="heading mb-5" id="small-heading">
+                            Eat Smart & Healthy
+                        </h1>
+                        <button class="button mr-3">
+                            View Menu
+                        </button>
+                        <button class="button button-2">
+                            Order Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="sectionWhyChooseUs">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+            <img src="Images/food_munch_logo.png"
+            class="food-munch-logo" alt="food_munch_logo" onclick="display('sectionHome')"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active highlighted-link" href="#"  onclick="display('sectionTwo')"> 
+                Why Choose Us? 
+            <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link" href="#" onclick="display('sectionExploreMenu')"> Explore Menu </a>
+            <a class="nav-link" href="#" onclick="display('sectionDeliveryAndPayment')"> Delivery & Payment </a>
+            <a class="nav-link" href="#"> Follow Us </a>
+            </div>
+        </div>
+                </nav>
+                <div class="wcu-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 id="wcu-main-heading"> Why Choose Us?</h1>
+                                <p class="wcu-description"> We use both original recipes and classic versions 
+                                    of famous food items.
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="wcu-card p-3 mb-3">
+                                    <img src="Images/food-serve.png"
+                                    class="food-service-image mb-2"
+                                    />
+                                    <h1 class="wcu-card-heading mb-2"> Food Service </h1>
+                                    <p class="wcu-description">
+                                        Experience fine dining at the comfort of your home.
+                                         All our orders are carefully packed and arranged to
+                                          give you the nothing less than perfect.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="wcu-card p-3 mb-3">
+                                    <img src="Images/fruits-img.png"
+                                    class="food-service-image mb-2"
+                                    />
+                                    <h1 class="wcu-card-heading mb-2"> Fresh Food </h1>
+                                    <p class="wcu-description">
+                                        The Fresh Food group provides fresh-cut fruits and 
+                                        vegetables directly picked from our partner farms
+                                         and farm houses so that you always get them tree 
+                                         to plate.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="wcu-card p-3 mb-3">
+                                    <img src="Images/offers-img.png"
+                                    class="food-service-image mb-2"
+                                    />
+                                    <h1 class="wcu-card-heading mb-2"> Best Offers </h1>
+                                    <p class="wcu-description">
+                                        Food Coupons & Offers upto
+                                         <span class="wcu-offers"> 50% OFF </span>
+                                         and Exclusive Promo
+                                         Codes on All Online Food Orders.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            <div id="sectionExploreMenu">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+            <img src="Images/food_munch_logo.png"
+            class="food-munch-logo" alt="food_munch_logo" onclick="display('sectionHome')"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" href="#"  onclick="display('sectionWhyChooseUs')"> 
+                Why Choose Us? 
+            <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link highlighted-link" href="#" onclick="display('sectionExploreMenu')"> Explore Menu </a>
+            <a class="nav-link" href="#" onclick="display('sectionDeliveryAndPayment')"> Delivery & Payment </a>
+            <a class="nav-link" href="#"> Follow Us </a>
+            </div>
+        </div>
+                </nav>
+                    <div class="explore-menu-section">
+                    <div class="container pt-5">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 class="explore-menu-heading"> Explore Menu </h1>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/Non-veg-starters_resized_2.jpg"
+                                    class="explore-menu-image mb-3 img-fluid"
+                                    alt="non-veg-starters"/>
+                                    <h1 class="explore-menu-card-heading mb-2"> Non-Veg Starters </h1>
+                                    <a href="" class="menu-item-link">
+                                         View All 
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                    </svg>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/veg-starters_resized_2.jpg"
+                                    class="explore-menu-image mb-3 img-fluid"
+                                    alt="veg-starters"/> 
+                                    <h1 class="explore-menu-card-heading mb-2"> Veg Starters </h1>
+                                    <a href="" class="menu-item-link">
+                                         View All 
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                    </svg>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/soups_resized_2.jpg"
+                                    class="explore-menu-image mb-3 img-fluid"
+                                    alt="soups"/>
+                                    <h1 class="explore-menu-card-heading mb-2"> Soups </h1>
+                                    <a href="" class="menu-item-link">
+                                         View All 
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                    </svg>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 mb-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/seafood_resized_2.jpg"
+                                    class="explore-menu-image mb-3 img-fluid"
+                                    alt="soups"/>
+                                    <h1 class="explore-menu-card-heading mb-2"> Seafood </h1>
+                                    <a href="" class="menu-item-link">
+                                         View All 
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                    </svg>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/main_course_resized.jpg"
+                                    class="explore-menu-image mb-3 img-fluid"
+                                    alt="non-veg-starters"/>
+                                    <h1 class="explore-menu-card-heading mb-2"> Main course </h1>
+                                    <a href="" class="menu-item-link">
+                                         View All 
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                    </svg>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/noodles_resized.jpg"
+                                    class="explore-menu-image mb-3 img-fluid"
+                                    alt="veg-starters"/> 
+                                    <h1 class="explore-menu-card-heading mb-2"> Noodles </h1>
+                                    <a href="" class="menu-item-link">
+                                         View All 
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                    </svg>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/salads_resized.jpg"
+                                    class="explore-menu-image mb-3 img-fluid"
+                                    alt="soups"/>
+                                    <h1 class="explore-menu-card-heading mb-2"> Salads </h1>
+                                    <a href="" class="menu-item-link">
+                                         View All 
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                    </svg>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/desserts_resized.jpg"
+                                    class="explore-menu-image mb-3 img-fluid"
+                                    alt="soups"/>
+                                    <h1 class="explore-menu-card-heading mb-2"> Desserts </h1>
+                                    <a href="" class="menu-item-link">
+                                         View All 
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                    </svg>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sectionDeliveryAndPayment">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+            <img src="Images/food_munch_logo.png"
+            class="food-munch-logo" alt="food_munch_logo" onclick="display('sectionHome')"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" href="#"  onclick="display('sectionWhyChooseUs')"> 
+                Why Choose Us? 
+            <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link" href="#" onclick="display('sectionExploreMenu')"> Explore Menu </a>
+            <a class="nav-link highlighted-link" href="#"> Delivery & Payment </a>
+            <a class="nav-link" href="#"> Follow Us </a>
+            </div>
+        </div>
+                </nav>
+                <div class="delivery-bg-container">
+                    <div class="container pt-5">
+                        <div class="row">
+                            <div class="col-12 col-md-5">
+                                <img src="Images/discount_resized.jpg"
+                                class="discount-image"
+                                alt="discount"
+                                />
+                            </div>
+                            <div class="col-12 col-md-7">
+                                <h1 class="delivery-heading"> Delivery and Payment </h1>
+                                <p class="delivery-description"> 
+                                    Enjoy hassle-free payment with the plenitude of payment options available for you.
+                                     Get live tracking and locate your food on a live map. It's quite a sight to see your 
+                                     food arrive to your door. Plus, you get a 5% discount on every order every time 
+                                     you pay online.
+                                </p>
+                                    <button class="order-button">
+                                        Order Now
+                                    </button>
+                                    <div class="mt-3">
+                                        <img src="Images/visa-card-img.png"
+                                        class="payment-card img-fluid mr-4"
+                                        alt="visa-card"
+                                        />
+                                        <img src="Images/master-card-img.png"
+                                        class="payment-card img-fluid mr-4"
+                                        alt="master-card"
+                                        />
+                                        <img src="Images/american-express-img.png"
+                                        class="payment-card img-fluid mr-4"
+                                        alt="master-card"
+                                        />
+                                        <img src="Images/paypal-card-img.png"
+                                        class="payment-card img-fluid"
+                                        alt="master-card"
+                                        />
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script
+      type="text/javascript"
+      src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+        </body>
+    </html>>
