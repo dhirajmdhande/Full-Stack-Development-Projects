@@ -154,13 +154,12 @@
                                     class="explore-menu-image mb-3 img-fluid"
                                     alt="non-veg-starters"/>
                                     <h1 class="explore-menu-card-heading mb-2"> Non-Veg Starters </h1>
-                                    <a href="" class="menu-item-link">
+                                    <a href="#" class="menu-item-link" onclick="display('sectionNonVegStarters')">
                                          View All 
                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                                     </svg>
                                     </a>
-                                    
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-3 mb-3">
@@ -169,7 +168,7 @@
                                     class="explore-menu-image mb-3 img-fluid"
                                     alt="veg-starters"/> 
                                     <h1 class="explore-menu-card-heading mb-2"> Veg Starters </h1>
-                                    <a href="" class="menu-item-link">
+                                    <a href="#" class="menu-item-link" onclick="display('sectionVegStarters')">
                                          View All 
                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
@@ -184,7 +183,7 @@
                                     class="explore-menu-image mb-3 img-fluid"
                                     alt="soups"/>
                                     <h1 class="explore-menu-card-heading mb-2"> Soups </h1>
-                                    <a href="" class="menu-item-link">
+                                    <a href="#" class="menu-item-link" onclick="display('sectionSoups')">
                                          View All 
                                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
@@ -339,9 +338,267 @@
                     </div>
                 </div>
             </div>
+            <div id="sectionNonVegStarters">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+            <img src="Images/food_munch_logo.png"
+            class="food-munch-logo" alt="food_munch_logo" onclick="display('sectionHome')"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" href="#"  onclick="display('sectionWhyChooseUs')"> 
+                Why Choose Us? 
+            <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link highlighted-link" href="#" onclick="display('sectionExploreMenu')"> Explore Menu </a>
+            <a class="nav-link" href="#" onclick="display('sectionDeliveryAndPayment')"> Delivery & Payment </a>
+            <a class="nav-link" href="#"> Follow Us </a>
+            </div>
+        </div>
+                </nav>
+                <div class="non-veg-container">
+                    <div class="container pt-5">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 class="non-veg-heading"> Non-Veg Starters</h1>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/chicken-biriyani.jpg"
+                                    alt="chicken-biriyani"
+                                    class="explore-menu-image img-fluid mb-2"
+                                    />
+                                    <p class="menu-item-description"> Chicken Biriyani </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/chicken-lollipop.jpg"
+                                    alt="chicken-lollipop"
+                                    class="explore-menu-image img-fluid mb-2"
+                                    />
+                                    <p class="menu-item-description"> Chicken Lollipop </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/chicken-tandoori.jpg"
+                                    alt="chicken-tandoori"
+                                    class="explore-menu-image img-fluid mb-2"
+                                    />
+                                    <p class="menu-item-description"> Chicken Tandoori </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                    <div class="explore-menu-card">
+                                        <img src="Images/chicken-thali.jpg"
+                                        alt="chicken-thali"
+                                        class="explore-menu-image img-fluid mb-2"
+                                        />
+                                        <p class="menu-item-description"> Chicken Thali </p>
+                                    </div>
+                             </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                    <div class="explore-menu-card">
+                                        <img src="Images/fish-dish.jpg"
+                                        alt="roasted-fish"
+                                        class="explore-menu-image img-fluid mb-2"
+                                        />
+                                        <p class="menu-item-description"> Roasted fish </p>
+                                    </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="explore-menu-card">
+                                        <img src="Images/mutton_thali.jpg"
+                                        alt="chicken-thali"
+                                        class="explore-menu-image img-fluid mb-2"
+                                        />
+                                        <p class="menu-item-description"> Mutton Thali </p>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+
+            <div id="sectionVegStarters">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+            <img src="Images/food_munch_logo.png"
+            class="food-munch-logo" alt="food_munch_logo" onclick="display('sectionHome')"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" href="#"  onclick="display('sectionWhyChooseUs')"> 
+                Why Choose Us? 
+            <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link highlighted-link" href="#" onclick="display('sectionExploreMenu')"> Explore Menu </a>
+            <a class="nav-link" href="#" onclick="display('sectionDeliveryAndPayment')"> Delivery & Payment </a>
+            <a class="nav-link" href="#"> Follow Us </a>
+            </div>
+        </div>
+                </nav>
+                <div class="non-veg-container">
+                    <div class="container pt-5">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 class="non-veg-heading"> Veg Starters</h1>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/paneer_tikka.jpg"
+                                    alt="chicken-biriyani"
+                                    class="explore-menu-image img-fluid mb-2"
+                                    />
+                                    <p class="menu-item-description"> Paneer Tikka </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/veg-munchurian.jpg"
+                                    alt="chicken-lollipop"
+                                    class="explore-menu-image img-fluid mb-2"
+                                    />
+                                    <p class="menu-item-description"> Veg Manchurian </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/cirspy-corn.jpg"
+                                    alt="chicken-tandoori"
+                                    class="explore-menu-image img-fluid mb-2"
+                                    />
+                                    <p class="menu-item-description"> Crispy Corn </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                    <div class="explore-menu-card">
+                                        <img src="Images/veg-cutlet.jpg"
+                                        alt="chicken-thali"
+                                        class="explore-menu-image img-fluid mb-2"
+                                        />
+                                        <p class="menu-item-description"> Veg Cutlet </p>
+                                    </div>
+                             </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                    <div class="explore-menu-card">
+                                        <img src="Images/spring_roll.jpg"
+                                        alt="roasted-fish"
+                                        class="explore-menu-image img-fluid mb-2"
+                                        />
+                                        <p class="menu-item-description"> Spring Rolls </p>
+                                    </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="explore-menu-card">
+                                        <img src="Images/cheese-balls.jpg"
+                                        alt="chicken-thali"
+                                        class="explore-menu-image img-fluid mb-2"
+                                        />
+                                        <p class="menu-item-description"> Cheese Balls </p>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div id="sectionSoups">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+            <img src="Images/food_munch_logo.png"
+            class="food-munch-logo" alt="food_munch_logo" onclick="display('sectionHome')"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" href="#"  onclick="display('sectionWhyChooseUs')"> 
+                Why Choose Us? 
+            <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link highlighted-link" href="#" onclick="display('sectionExploreMenu')"> Explore Menu </a>
+            <a class="nav-link" href="#" onclick="display('sectionDeliveryAndPayment')"> Delivery & Payment </a>
+            <a class="nav-link" href="#"> Follow Us </a>
+            </div>
+        </div>
+                </nav>
+                <div class="non-veg-container">
+                    <div class="container pt-5">
+                        <div class="row">
+                            <div class="col-12">
+                                <h1 class="non-veg-heading"> Soups </h1>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/tomato_soup.jpg"
+                                    alt="chicken-biriyani"
+                                    class="explore-menu-image img-fluid mb-2"
+                                    />
+                                    <p class="menu-item-description"> Tomato Soup </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/sweet_corn_soup.jpg"
+                                    alt="chicken-lollipop"
+                                    class="explore-menu-image img-fluid mb-2"
+                                    />
+                                    <p class="menu-item-description"> Sweet Corn Soup </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <div class="explore-menu-card">
+                                    <img src="Images/veg-clear-soup.jpg"
+                                    alt="chicken-tandoori"
+                                    class="explore-menu-image img-fluid mb-2"
+                                    />
+                                    <p class="menu-item-description"> Veg Clear Soup </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                    <div class="explore-menu-card">
+                                        <img src="Images/chicken-clear-soup.jpg"
+                                        alt="chicken-thali"
+                                        class="explore-menu-image img-fluid mb-2"
+                                        />
+                                        <p class="menu-item-description"> Chicken Clear Soup </p>
+                                    </div>
+                             </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                    <div class="explore-menu-card">
+                                        <img src="Images/hot-and-sour-soup.jpg"
+                                        alt="roasted-fish"
+                                        class="explore-menu-image img-fluid mb-2"
+                                        />
+                                        <p class="menu-item-description"> Hot & Sour Soup </p>
+                                    </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="explore-menu-card">
+                                        <img src="Images/manchow-soup.jpg"
+                                        alt="chicken-thali"
+                                        class="explore-menu-image img-fluid mb-2"
+                                        />
+                                        <p class="menu-item-description"> Manchow Soup </p>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
             <script
       type="text/javascript"
       src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
     ></script>
         </body>
-    </html>>
+    </html>
