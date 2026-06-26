@@ -132,3 +132,19 @@
     height:70px;
     width:70px;
 }
+.non-veg-container{
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+}
+.non-veg-heading{
+    font-family:"Roboto";
+    color:navy;
+    font-size:30px;
+    font-weight:600;
+}
+.menu-item-description{
+    font-size:20px;
+    font-family:"Roboto";
+    color:bisque;
+}
