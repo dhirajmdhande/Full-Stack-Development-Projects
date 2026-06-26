@@ -132,7 +132,7 @@
     height:70px;
     width:70px;
 }
-.non-veg-container{
+.menu-items-container{
     height:100vh;
     width:100vw;
     background-size:cover;
@@ -144,7 +144,64 @@
     font-weight:600;
 }
 .menu-item-description{
-    font-size:20px;
+    font-size:25px;
     font-family:"Roboto";
     color:bisque;
+    font-weight:bold;
+}
+.cart-container{
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+}
+.cart-heading{
+    font-size:24px;
+    color:navy;
+    font-weight:600;
+    font-family:"Roboto";
+}
+.cart-description{
+    font-size:14px;
+    color:grey;
+    font-family:"Roboto";
+}
+.cart-icon{
+    color:darkorange;
+    width:80px;
+    height:30px;
+}
+.cart-image{
+    height:50%;
+    width:50%;
+    border-radius:12px;
+    border-width:0px;
+}
+.cart-item-heading{
+    font-size:20px;
+    color:navy;
+    font-weight:500;
+    font-family:"Roboto";
+}
+.status{
+    color:lightgreen;
+    font-size:14px;
+    font-family:"Roboto";
+}
+.delivered-text{
+    color:navy;
+    font-weight:600;
+    font-family:"Roboto";
+    font-size:17px;
+}
+.cart-button{
+    color:darkgoldenrod;
+}
+.cart-item-price{
+    color:navy;
+    font-weight:600;
+    font-family:"Roboto";
+    font-size:17px;
+}
+.not-available{
+    color:red;
 }
