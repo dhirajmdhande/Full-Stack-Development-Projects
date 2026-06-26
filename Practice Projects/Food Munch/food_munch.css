@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.food-munch-logo{
+    height:70px;
+    width:70px;
+}
+.bg-container{
+    background-image:url("Images/food_table.jpg");
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+}
+.heading{
+    font-family:"Roboto";
+    font-size:50px;
+    color:yellow;
+}
+#small-heading{
+    font-size:30px;
+}
+.button{
+    height:70px;
+    width:150px;
+    color:white;
+    font-size:22px;
+    font-family:"Roboto";
+    background-color:darkgoldenrod;
+    border-radius:15px;
+}
+.button-2{
+    background-color:transparent;
+    color:orange;
+    font-size:22px;
+    font-family:"Roboto";
+    border-width:2px;
+    border-color:orange;
+    border-style:solid;
+}
+.wcu-section{
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+}
+.wcu-card{
+    background-color:white;
+    border-width:3px;
+    border-color:grey;
+    border-style:solid;
+    border-radius:15px;
+    text-align:center;
+}
+.food-service-image{
+    height:80px;
+    width:80px;
+}
+.wcu-card-heading{
+    font-family:"Roboto";
+    font-size:20px;
+    font-weight:400;
+}
+.wcu-description{
+    font-family:"Roboto";
+    color:grey;
+    font-size:18px;
+}
+.wcu-offers{
+    color:navy;
+    font-style:italic;
+}
+.explore-menu-heading{
+    font-size:25px;
+    font-family:"Roboto";
+    color:navy;
+    font-weight:500;
+}
+.explore-menu-card{
+    border-width :15px;
+    background-color:white;
+    border-color:whitesmoke;
+    border-style:solid;
+    border-radius:15px;
+}
+.explore-menu-image{
+    border-radius:16px;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.explore-menu-card-heading{
+    font-size:20px;
+    font-family:"Roboto";
+    color:navy;
+}
+.menu-item-link{
+    font-size:16px;
+    color:yellow;
+    font-family:"Roboto";
+}
+.highlighted-link{
+    background-color:yellow;
+}
+.delivery-bg-container{
+    height:100vh;
+    width:100vh;
+    background-size:cover;
+}
+.discount-image{
+    height:55%;
+    width:100%;
+    object-fit:cover;
+}
+.delivery-heading{
+    font-size:25px;
+    font-family:"Roboto";
+    color:navy;
+}
+.delivery-description{
+    font-size:18px;
+    color:grey;
+}
+.order-button{
+    width:120px;
+    height:50px;
+    color:white;
+    font-family:"Roboto";
+    font-size:18px;
+    background-color:darkgoldenrod;
+    border-width:0px;
+    border-radius:12px;
+}
+.payment-card{
+    height:70px;
+    width:70px;
+}
