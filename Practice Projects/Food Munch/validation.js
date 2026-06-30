@@ -14,9 +14,14 @@ form.addEventListener('submit', (e) => {
     else{
         errors = getLoginFormErrors(email_input.value, password_input.value)
     }
+    e.preventDefault()
+
     if(errors.length > 0){
         e.preventDefault()
         error_message.innerText = errors.join(". ")
+    }
+    else{
+        window.location.href="Food_website.html"
     }
 })
 function getSignupFormErrors(firstname, email, password, repeatPassword){
