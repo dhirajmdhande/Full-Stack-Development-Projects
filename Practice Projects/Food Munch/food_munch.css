@@ -13,14 +13,34 @@
 }
 .bg-container{
     background-image:url("Images/food_table.jpg");
-    height:100vh;
-    width:100vw;
     background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:100vh;
+    
+}
+.intro-section{
+    margin-top:20%;
+}
+.fire-icon{
+    color:gold;
+}
+.fast-delivery-button{
+    color:white;
+    background-color:#FF5000;
+    border-radius:1000px;
+    font-weight:bold;
+    padding:5px;
+    padding-right:15px;
+    padding-left:15px;
+    border:none;
+    margin-bottom:15px;
 }
 .heading{
     font-family:"Roboto";
     font-size:50px;
-    color:yellow;
+    color:orangered;
+    font-weight:bold;
 }
 #small-heading{
     font-size:30px;
@@ -42,6 +62,22 @@
     border-width:2px;
     border-color:orange;
     border-style:solid;
+}
+.statistics-heading{
+    color:#FF5000;
+}
+.statistics-description{
+    color:whitesmoke;
+    font-weight:bold;
+    font-size:16px;
+}
+.statistics-card-2{
+    color:whitesmoke;
+}
+.carousel-item img{
+    width:100%;
+    height:500px;
+    object-fit:contain;
 }
 .wcu-section{
     height:100vh;
@@ -195,10 +231,17 @@
     color:#f1c27d;
     font-weight:bold;
 }
+.customised-deal{
+    height:30px;
+    text-align:center;
+    align-items: center;
+    padding-bottom:30px;
+}
 .cart-container{
     height:100vh;
     width:100vw;
     background-size:cover;
+    padding:70px;
 }
 .cart-heading{
     font-size:24px;
@@ -315,4 +358,69 @@ div .wcu-card:hover{
 }
 .back-button{
     color:#FFDF00;
+}
+.follow-us-heading{
+    font-family:"Poppins","Segoe UI", sans-serif;
+    font-weight:700;
+    font-size:40px;
+    color:goldenrod;
+}
+.follow-us-descripion{
+    color:whitesmoke;
+    font-weight:500;
+    font-size:18px;
+}
+.socials-links{
+    background-color:transparent;
+    display:inline-flex;
+    border-radius:1000px;
+    width:auto;
+    padding:10px 20px;
+    border-width:4px;
+    border-style:solid;
+    border-color:black;
+    margin-bottom:10px;
+}
+.social-link{
+    text-decoration: none;
+    color:inherit;
+}
+.social-link:hover{
+    text-decoration: none;
+    color:inherit;
+}
+.socials-id{
+    color:whitesmoke;
+    font-size:16px;
+    font-weight:bolder;
+    margin-top:10px;
+}
+#facebook-logo{
+    height:30px;
+    width:30px;
+    margin-right:10px;
+}
+#instagram{
+    margin-right:10px;
+}
+#twitter{
+    margin-right:10px;
+}
+#youtube{
+    margin-right:10px;
+}
+.left-align{
+    text-align:left;
+}
+.review-images{
+    height:250px;
+    width:250px;
+    border-radius:15px;
+}
+.video-card{
+    border-radius:15px;
+}
+.rounded-video{
+    border-radius:15px;
+    overflow:hidden;
 }
